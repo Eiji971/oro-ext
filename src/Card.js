@@ -1,5 +1,5 @@
 import React from "react"
-
+import bg from './parchment.png';
 export default function Card(props) {
     /*
     const [connectedUser, setConnectedUser] = useState(""); // State to store the connected username
@@ -14,10 +14,11 @@ export default function Card(props) {
     */
 
     const connectedUsert = "orobou"
-    if (props.item.username === connectedUsert) {
+    if (props.item.username === connectedUsert) 
+    {
         return (
             <div className="card">
-                <img src="parchment.jpg" className="bg--img" alt="Background" />
+                <img src={bg} className="bg--img" alt="Background" />
                 <div className="card--stats">
                     <span className="main--infos">{props.item.username}</span>
                     <span className="main--infos"> lvl {props.item.player.level}</span>

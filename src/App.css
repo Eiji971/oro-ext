@@ -10,6 +10,12 @@
 .bg--img {
   height: 40vmin;
   pointer-events: none;
+  position: relative;
+}
+
+.main--infos {
+  position: absolute;
+  z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {

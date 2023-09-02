@@ -1,20 +1,14 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .bg--img {
-  height: 40vmin;
+  background-image: url('./bg.png');
+  background-size: 100%;
   pointer-events: none;
   position: relative;
 }
 
 .main--infos {
-  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  padding-left: 15px;
   z-index: 1;
 }
 

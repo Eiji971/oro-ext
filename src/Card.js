@@ -1,5 +1,5 @@
 import React from "react"
-import bg from './parchment.png';
+import bg from './bg.png';
 export default function Card(props) {
     /*
     const [connectedUser, setConnectedUser] = useState(""); // State to store the connected username

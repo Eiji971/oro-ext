@@ -56,7 +56,7 @@ export default function Card(props) {
                 <div>
                     <img src={lvl} className="subinfo--img"/>
                     <div>
-                        <span className="main--infos"> lvl {props.item.player.level}</span>
+                        <span className="main--infos">{props.item.player.level}</span>
                     </div>
                     <img src={gold} className="subinfo--img"/>
                     <div>

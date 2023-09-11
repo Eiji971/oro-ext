@@ -53,20 +53,24 @@ export default function Card(props) {
                 <div className="card--mainstats">
                     <span className="main--infos">{userData.username}</span>
                 </div>
-                <div>
-                    <img src={lvl} className="subinfo--img"/>
+                <div className="main--container">
                     <div>
-                        <span className="main--infos">{props.item.player.level}</span>
+                        <img src={slime} className="slime--img" alt="slime char" />
                     </div>
-                    <img src={gold} className="subinfo--img"/>
-                    <div>
-                        <span className="submain--infos">{formatGold(userData.gold)}</span>
+                    <div className="submain--container">
+                        <div>
+                            <img src={lvl} className="subinfo--img"/>
+                            <span className="main--infos2">{props.item.player.level}</span>
+                            
+                        </div>
+                        <div>
+                            <img src={gold} className="subinfo--img"/>
+                            <span className="submain--infos">{formatGold(userData.gold)}</span>
+                        </div>
                     </div>
                 </div>
                     
-                <div>
-                    <img src={slime} className="slime--img" alt="slime char" />
-                </div>
+                
                 <div className="stat--container">
                     <img src={bgstat} className="bgstat--container" alt="slime char" />
                     <button className="btn--quest">JOIN QUEST</button>

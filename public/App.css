@@ -6,11 +6,16 @@
   margin-top: -465px;
 }
 
-.bg--img {
-  background-image: url('./bg.png');
-  background-size: 100%;
-  pointer-events: none;
-  z-index: 0;
+.main--container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.submain--container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
 }
 
 .bgstat--container {
@@ -24,38 +29,7 @@
 }
 
 .stat--container {
-  padding-top: 20px;
-}
-
-.main--infos {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 1.4px;
-  color: var(--White, #FFF);
-  text-align: center;
-  z-index: 2;
-
-}
-
-.submain--infos {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
-  padding-left: 110px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 1.4px;
-  color: var(--White, #FFF);
-  text-align: center;
-  z-index: 2;
-}
-
-.slime--img {
-  height: 110px;
-  padding-left: 15px;
+  padding-top: 3px;
 }
 
 .sub--infos--container {
@@ -77,18 +51,46 @@
   padding-left: 40px;
 }
 
-.btn--quest {
-  position: relative;
+.main--infos {
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
-  color: #684626;
-  margin-left: 37px;
-  margin-top: 33px;
-  width: 240px;
-  height: 37.142px;
-  background: linear-gradient(89deg, #F6D788 0%, #F8DD84 69.27%, #FDF8BB 85.94%, #F8DD84 96.36%);
-  border: 2px solid rgba(0, 0, 0, 0.20);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: var(--White, #FFF);
+  text-align: center;
   z-index: 2;
+
+}
+
+.main--infos2 {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #4792EA;
+  text-align: center;
+  z-index: 2;
+  margin-left: -51px;
+  margin-top: 25px;
+}
+
+.submain--infos {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--deprecated-le-dark-brown, #684626);
+  text-align: center;
+  z-index: 2;
+  margin-left: -58px;
+  margin-top: 27px;
 }
 
 .sub--infos {
@@ -100,13 +102,6 @@
   line-height: normal;
   letter-spacing: 1.4px;
   color: var(--Text-grey, #D9D9D9);
-  z-index: 2;
-}
-
-.equipment--img {
-  position: relative;
-  padding-top: -50px;
-  margin-top: -5px;
   z-index: 2;
 }
 
@@ -123,6 +118,47 @@
   color: var(--Text-grey, #D9D9D9);
   z-index: 2;
 }
+
+.btn--quest {
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  color: #684626;
+  margin-left: 37px;
+  margin-top: 33px;
+  width: 240px;
+  height: 37.142px;
+  background: linear-gradient(89deg, #F6D788 0%, #F8DD84 69.27%, #FDF8BB 85.94%, #F8DD84 96.36%);
+  border: 2px solid rgba(0, 0, 0, 0.20);
+  z-index: 2;
+}
+
+.bg--img {
+  background-image: url('./bg.png');
+  background-size: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.slime--img {
+  height: 110px;
+  padding-left: 15px;
+}
+
+.subinfo--img {
+  z-index: 1;
+  position: relative;
+}
+
+.equipment--img {
+  position: relative;
+  padding-top: -50px;
+  margin-top: -5px;
+  z-index: 2;
+}
+
+
+
 
 
 

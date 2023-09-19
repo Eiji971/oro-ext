@@ -19,7 +19,6 @@
 }
 
 .bgstat--container {
-  background-image: url('./bgstat.png');
   background-size: 100%;
   position: absolute;
   pointer-events: none;

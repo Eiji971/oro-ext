@@ -1,25 +1,16 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+  "name": "Orobou QuestBot 3.02",
+  "version": "0.01",
+  "description": "Display in-game statistics of the questbot game on a menu it goes from (gold, atk, health, mana, etc...)",
+  "author": "Pancake Gang.co",
+  "type": "panel",
+  "panel_height": 500,
+  "permissions": [
+    "chat:write"
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "whitelisted_domains": [
+    "https://f057-93-121-165-213.ngrok.io"
+  ],
+  "testing_instructions": "Instructions for testing the extension.",
+  "support_email": "bosc_emery@outlook.com"
 }
